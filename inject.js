@@ -1,19 +1,16 @@
-import exports from './exports.js'
-import config from './config.json'
-
-const props = config.prop
-const prefixes = config.prefixes
+import exports from './exports'
+import config from './config.json!'
 
 export default function (window={}) {
 	function addProps (add) {
-		props.forEach(function (prop) {
+		config.props.forEach(function (prop) {
 			if (!window[prop]) {
 				window[prop] = add(window, prop)
 			}
 		})
 	}
 	addProps(function (prop) {
-		for (var prefix in prefixes) {
+		for (var prefix in config.prefixes) {
 			if (window[prefix + prop]) {
 				return window[prefix + prop]
 			}

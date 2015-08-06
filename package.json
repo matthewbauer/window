@@ -1,0 +1,42 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "acosh": "github:sindresorhus/acosh@^1.0.0",
+      "asinh": "github:sindresorhus/asinh@^1.0.0",
+      "atanh": "github:arthurvr/atanh@^1.0.1",
+      "cbrt": "github:sindresorhus/cbrt@^1.0.0",
+      "clz32": "github:sindresorhus/clz32@^1.0.0",
+      "console-polyfill": "github:paulmillr/console-polyfill@^0.2.1",
+      "cosh": "github:kenany/cosh@^1.0.1",
+      "es6-promise": "github:jakearchibald/es6-promise@^2.3.0",
+      "expm1": "github:sindresorhus/expm1@^1.0.1",
+      "fetch": "github:github/fetch@^0.9.0",
+      "fround": "github:sindresorhus/fround@^1.0.1",
+      "hypot": "github:sindresorhus/hypot@^1.0.0",
+      "imul": "github:sindresorhus/imul@^1.0.0",
+      "is-finite": "github:sindresorhus/is-finite@^1.0.1",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "log10": "github:sindresorhus/log10@^1.0.0",
+      "log1p": "github:sindresorhus/log1p@^1.0.0",
+      "math-sign": "github:sindresorhus/math-sign@^1.0.2",
+      "math-sinh": "github:sindresorhus/math-sinh@^1.0.0",
+      "math-trunc": "github:kevva/math-trunc@^1.0.0",
+      "number-epsilon": "github:sindresorhus/number-epsilon@^1.0.2",
+      "number-is-nan": "github:sindresorhus/number-is-nan@^1.0.0",
+      "object-assign": "github:sindresorhus/object-assign@^3.0.0",
+      "set-immediate-shim": "github:sindresorhus/set-immediate-shim@^1.0.1",
+      "string-includes": "github:kevva/string-includes@^1.0.0",
+      "tanh": "github:kenany/tanh@^1.1.1"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    },
+    "overrides": {
+      "github:jakearchibald/es6-promise@2.3.0": {
+        "main": "es6-promise.umd.js"
+      }
+    }
+  }
+}
