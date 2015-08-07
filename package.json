@@ -1,6 +1,7 @@
 {
   "jspm": {
     "directories": {},
+    "main": "window.js",
     "dependencies": {
       "acosh": "github:sindresorhus/acosh@^1.0.0",
       "asinh": "github:sindresorhus/asinh@^1.0.0",

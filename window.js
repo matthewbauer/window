@@ -7,6 +7,8 @@ if (typeof window !== 'undefined') {
 	__global = self
 } else if (typeof this !== 'undefined') {
 	__global = this
+} else {
+	__global = {}
 }
 
 function fill (name) {
@@ -232,6 +234,11 @@ export {
 	Request,
 	Response,
 	Headers
+}
+
+let HTMLCanvasElement = fill('HTMLCanvasElement')
+export {
+	HTMLCanvasElement
 }
 
 export default __global
