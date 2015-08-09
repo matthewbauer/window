@@ -1,2 +1,2 @@
-import {XMLHttpRequest} from './window.js'
+import {XMLHttpRequest} from './window'
 console.error(XMLHttpRequest)

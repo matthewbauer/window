@@ -11,6 +11,8 @@ if (typeof window !== 'undefined') {
 	__global = {}
 }
 
+import 'web-audio-api-shim'
+
 function fill (name) {
 	if (__global[name]) {
 		return __global[name]
